@@ -1,0 +1,31 @@
+{
+  "name": "JZP-Quiz",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedFirst": {
+      "Preload": {
+        "$path": "src/Preload.client.luau"
+      }
+    },
+
+    "ReplicatedStorage": {
+      "Modules": {
+        "$path": "src/modules"
+      }
+    },
+
+    "ServerScriptService": {
+      "$path": "src/server"
+    },
+
+    "StarterPlayer": {
+      "StarterCharacterScripts": {
+        "$path": "src/character"
+      },
+      "StarterPlayerScripts": {
+        "$path": "src/client"
+      }
+    }
+  }
+}
